@@ -1,5 +1,6 @@
 USE [bedagDBA]
 GO
+--Versuch
 IF OBJECT_ID(N'tempdb..#dcus') IS NOT NULL DROP TABLE #dcus
 SELECT
 	 [primary] = [a].[instance]
